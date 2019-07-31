@@ -20,8 +20,12 @@
     达达
     what is the matter
     <p>o my god</p>
+    <img src="./3.jpg" alt="it is a beautiful girl">
     <script>
-        
+        var imgList = document.getElementsByTagName('img');
+        for(var i = 0;i<imgList.length;i++){
+            imgList[i].style.border = '5px solid red';
+        }
     </script>
 </body>
 </html>
